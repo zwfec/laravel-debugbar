@@ -1,5 +1,5 @@
 {
-    "name": "barryvdh/laravel-debugbar",
+    "name": "zwfec/laravel-debugbar",
     "description": "PHP Debugbar integration for Laravel",
     "keywords": ["laravel", "debugbar", "profiler", "debug", "webprofiler"],
     "license": "MIT",
@@ -10,10 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9",
-        "illuminate/support": "5.1.*|5.2.*|5.3.*",
-        "symfony/finder": "~2.7|~3.0",
-        "maximebf/debugbar": "~1.11.0|~1.12.0"
+        "php": ">=5.5.9"
     },
     "autoload": {
         "psr-4": {
@@ -22,10 +19,5 @@
         "files": [
             "src/helpers.php"
         ]
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.2-dev"
-        }
     }
 }
