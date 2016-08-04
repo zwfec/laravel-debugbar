@@ -10,7 +10,10 @@
         }
     ],
     "require": {
-        "php": ">=5.5.9"
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*|5.2.*",
+        "symfony/finder": "~2.7|~3.0",
+        "maximebf/debugbar": "~1.11.0"
     },
     "autoload": {
         "psr-4": {
@@ -18,11 +21,11 @@
         },
         "files": [
             "src/helpers.php"
-        ],
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.2-dev"
-            }
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.2-dev"
         }
     }
 }
